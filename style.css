@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body{
+    background-color: rgb(53, 242, 248);
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+}
+.main{
+    padding: 22px;
+    background-color: white;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+.class1{
+    padding: 40px;
+    /* border: 1px solid black; */
+}
+
+.class2{
+    padding: 40px;
+    background-color:hsl(183, 100%, 15%);
+    color: white;
+    border-radius:20px ;
+}
+
+.tipsbutton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#myBtn{
+    width: 70px;
+    background: none;
+    border-radius: 20px;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* background-color: black; */
+}
+
+#resetbutton{
+    background:hsl(185, 41%, 84%);
+    color: black;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+input{
+    width: 100%;
+    background-color:lightblue;
+}
+
+.output{
+    font-size: 30px;
+}
+
+@media(max-width:577px){
+
+    .main{
+        width: 90%;
+    }
+    .class1{
+       width: 100%;
+        /* border: 1px solid black; */
+    }
+    
+    .class2{
+        width: 100%;
+    }
+}
